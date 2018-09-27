@@ -1,0 +1,18 @@
+{
+    "name": "moraesgil/entity-validator-trait",
+    "description": "A simple Laravel trait for call Validation by your entitie to allow data creating or updating.",
+    "keywords": ["framework", "laravel","entity","model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilberto Prudêncio Vaz de Moraes",
+            "email": "moraesdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "Traits\\Entities\\":"./src"
+        }
+    }
+}
